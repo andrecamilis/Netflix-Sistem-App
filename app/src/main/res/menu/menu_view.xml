@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item1"
+        android:onClick="irInicio"
+        android:icon="@drawable/ic_house"
+        android:title="Início"
+        app:showAsAction="never" />
+
+    <item
+        android:onClick="irJogos"
+        android:id="@+id/item2"
+        android:title="Jogos"
+        app:showAsAction="never" />
+
+    <item
+        android:onClick="irPerfil"
+        android:id="@+id/item3"
+        android:title="Perfil"
+        app:showAsAction="never"/>
+
+</menu>

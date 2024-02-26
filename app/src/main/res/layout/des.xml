@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/_316sdp"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/dialog_anime3">
+
+
+    <RelativeLayout
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_width="@dimen/_321sdp"
+        android:layout_height="250dp">
+        <ImageView
+            android:layout_width="96dp"
+            android:layout_height="126dp"
+            android:src="@drawable/des"/>
+
+
+        <TextView
+            android:layout_width="@dimen/_298sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="122dp"
+            android:layout_marginTop="9dp"
+            android:padding="8dp"
+            android:text="(DES)ENCANTO"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="11dp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="170dp"
+            android:layout_marginTop="65dp"
+            android:padding="8dp"
+            android:text="Mais uma série animada"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="8dp"
+            android:textStyle="italic"
+            tools:ignore="TextSizeCheck" />
+
+
+
+        <TextView
+            android:layout_width= "93dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="45dp"
+            android:padding="8dp"
+            android:text="Netflix"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="8dp"
+            android:textStyle="italic"
+            tools:ignore="TextSizeCheck" />
+
+
+        <TextView
+            android:layout_width="@dimen/_53sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="122dp"
+            android:layout_marginTop="43dp"
+            android:padding="8dp"
+            android:text="Distribuição:"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="8dp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:layout_width="@dimen/_53sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="122dp"
+            android:layout_marginTop="63dp"
+            android:padding="8dp"
+            android:text="Descrição:"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="9dp"
+            android:textStyle="bold"
+            tools:ignore="TextSizeCheck" />
+
+
+
+    </RelativeLayout>
+</LinearLayout>

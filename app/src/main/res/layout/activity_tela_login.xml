@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.TelaLogin"
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/voltar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="45dp"
+        android:clickable="true"
+        android:src="@drawable/arrow"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="Porfavor entre"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="120dp"/>
+
+    <RelativeLayout
+        android:padding="15dp"
+        android:layout_marginTop="@dimen/_153sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_180sdp">
+        <EditText
+            android:id="@+id/editTextNome"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:hint="@string/texto12"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:background="#272626"
+            android:paddingStart="10dp"/>
+
+        <EditText
+            android:layout_marginTop="100dp"
+            android:id="@+id/editTextSenha"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:hint="@string/texto13"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:background="#272626"
+            android:paddingStart="10dp"/>
+    </RelativeLayout>
+
+
+    <ImageButton
+
+        android:id="@+id/btnCadastrar"
+        android:layout_width="270dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/ic_botao2"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:onClick="login"/>
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="30dp"
+        android:text="ENTRAR"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="520dp"/>
+
+
+</RelativeLayout>

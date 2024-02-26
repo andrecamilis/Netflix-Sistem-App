@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaAviso"
+    android:background="@color/black">
+    
+    <TextView
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="65dp"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:text="@string/aviso"
+        android:textSize="45dp"
+        android:textColor="@color/white"/>
+
+    <ImageView
+        android:layout_marginTop="120dp"
+        android:layout_marginStart="80dp"
+        android:layout_width="250dp"
+        android:layout_height="220dp"
+        android:src="@drawable/aviso"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="395dp"
+        android:padding="15dp"
+        android:text="@string/aviso1"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        tools:ignore="TextSizeCheck,TextSizeCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="440dp"
+        android:padding="15dp"
+        android:text="@string/aviso2"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="485dp"
+        android:padding="15dp"
+        android:text="@string/aviso3"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="530dp"
+        android:padding="15dp"
+        android:text="@string/aviso4"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/blzBotao"
+        android:layout_width="@dimen/_123sdp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_509sdp"
+        android:text="Entendido" />
+
+    <Button
+        android:id="@+id/naoBotao"
+        android:layout_width="@dimen/_123sdp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="@dimen/_170sdp"
+        android:layout_marginTop="@dimen/_509sdp"
+        android:text="Não aceito" />
+
+</RelativeLayout>

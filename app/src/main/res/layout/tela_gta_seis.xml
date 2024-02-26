@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".View.TelaApresentarGtaSeis"
+    android:background="@color/black">
+
+
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1099dp">
+
+            <ImageView
+                android:id="@+id/voltar3"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:clickable="true"
+                android:src="@drawable/arrow"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+
+            <VideoView
+                android:id="@+id/videoView4"
+                android:layout_width="match_parent"
+                android:layout_height="470dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="410dp"
+                android:background="@drawable/ic_fundopreto3"
+                android:layout_marginTop="200dp"
+                android:rotation="90"/>
+
+            <ImageView
+                android:layout_width="@dimen/_98sdp"
+                android:layout_height="@dimen/_98sdp"
+                android:layout_marginTop="199dp"
+                android:layout_marginStart="@dimen/_110sdp"
+                android:src="@drawable/gta"/>
+
+
+            <TextView
+                android:layout_width="@dimen/_168sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginStart="90dp"
+                android:layout_marginTop="340dp"
+                android:padding="8dp"
+                android:text="Grand Theft Auto: VI"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textSize="19dp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+
+
+            <ImageView
+                android:layout_width="@dimen/_17sdp"
+                android:layout_height="@dimen/_16sdp"
+                android:layout_marginTop="380dp"
+                android:layout_marginStart="@dimen/_150sdp"
+                android:src="@drawable/ic_16"/>
+
+
+            <ImageButton
+                android:id="@+id/bntPlay"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginTop="502dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+            <TextView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginTop="520dp"
+                android:layout_marginStart="@dimen/_130sdp"
+                android:paddingTop="3dp"
+                android:text="Baixar o jogo"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                />
+
+
+            <ImageButton
+                android:id="@+id/bntAssitir"
+                android:layout_width="180dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginTop="570dp"
+                android:background="#101010"
+                tools:ignore="SpeakableTextPresentCheck" />
+            <TextView
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginTop="585dp"
+                android:layout_marginStart="@dimen/_30sdp"
+                android:paddingTop="3dp"
+                android:text="Minha lista"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:drawableStart="@drawable/check_24"/>
+
+
+
+
+            <ImageButton
+                android:id="@+id/bntCompar"
+                android:layout_width="170dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="@dimen/_165sdp"
+                android:layout_marginTop="570dp"
+                android:background="#101010"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginTop="585dp"
+                android:layout_marginStart="@dimen/_190sdp"
+                android:paddingTop="3dp"
+                android:text="Compartilhar"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:drawableStart="@drawable/share"/>
+
+
+            <TextView
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginStart="@dimen/_95sdp"
+                android:layout_marginTop="380dp"
+                android:paddingTop="5dp"
+                android:text="Simulação"
+                android:textColor="#AFAFAF"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+
+
+            <TextView
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_marginStart="@dimen/_185sdp"
+                android:layout_marginTop="380dp"
+                android:paddingTop="5dp"
+                android:text="16 Anos"
+                android:textColor="#AFAFAF"
+                android:textSize="10dp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+
+
+
+            <TextView
+                android:layout_width="413dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="650dp"
+                android:text="Lorem ipsum dolor sit amet. 33 ullam maiores eos voluptatibus galisum sit sint cupiditate vel quam eaque! Qui amet nostrum et sunt quia et praesentium reprehenderit. Ut maxime numquam eos ipsum rerum nam molestiae excepturi At nisi delectus aut iste esse nam blanditiis adipisci non pariatur sunt! Et fuga odio sed earum modi est saepe quas est recusandae enim qui nulla laboriosam sit nulla tempora."
+                android:textAlignment="viewStart"
+                android:textColor="#D3D3D3"
+                android:textSize="12dp"
+                android:textStyle="italic"
+                tools:ignore="TextSizeCheck" />
+
+
+            <TextView
+                android:layout_width="413dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="750dp"
+                android:text="Modos: Solo"
+                android:textAlignment="viewStart"
+                android:textColor="#FFFFFF"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                tools:ignore="TextSizeCheck" />
+
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="946dp">
+
+                <RelativeLayout
+                    android:layout_width="@dimen/_509sdp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="790dp">
+
+
+                    <VideoView
+                        android:id="@+id/videoView5"
+                        android:layout_width="220dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="20dp"
+                        android:clickable="true"
+                        />
+
+
+
+                    <ImageView
+                        android:layout_width="220dp"
+                        android:layout_height="150dp"
+                        android:layout_marginStart="229dp"
+                        android:src="@drawable/gtaseis" />
+
+
+                </RelativeLayout>
+            </HorizontalScrollView>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

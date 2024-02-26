@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.TelaPerfilPrincipal"
+    android:background="@color/black">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="1200dp">
+
+
+
+    <TextView
+        android:paddingLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="149dp"
+        android:layout_height="40dp"
+        android:text="Minha NetFlix"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_cast"
+        android:layout_marginTop="53dp"
+        android:layout_marginStart="@dimen/_230sdp"/>
+
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_list"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="@dimen/_280sdp"/>
+
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/foto5"
+        android:layout_marginTop="110dp"
+        android:layout_marginStart="@dimen/_130sdp"/>
+
+    <TextView
+        android:id="@+id/nomeUser"
+        android:layout_marginLeft="@dimen/_100sdp"
+        android:layout_marginTop="220dp"
+        android:layout_width="199dp"
+        android:layout_height="40dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:id="@+id/id"
+        android:layout_marginLeft="@dimen/_75sdp"
+        android:layout_marginTop="220dp"
+        android:layout_width="29dp"
+        android:layout_height="40dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        />
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/ic_arrow"
+        android:layout_marginTop="210dp"
+        android:layout_marginStart="@dimen/_250sdp"/>
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/ic_info"
+        android:layout_marginTop="280dp"
+        android:layout_marginStart="@dimen/_30sdp"/>
+
+    <TextView
+        android:layout_marginLeft="@dimen/_75sdp"
+        android:layout_marginTop="289dp"
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:text="Nortificações"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        />
+
+    <ImageView
+        android:id="@+id/imgNorti"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="@dimen/_250sdp"
+        android:layout_marginTop="280dp"
+        android:clickable="true"
+        android:padding="6dp"
+        android:src="@drawable/ic_arrow2"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/gtasanfoto"/>
+
+    <TextView
+        android:layout_marginLeft="@dimen/_139sdp"
+        android:layout_marginTop="349dp"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:text="Grande Roubos de Carros: Los Angeles"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        />
+
+    <TextView
+        android:layout_marginLeft="@dimen/_139sdp"
+        android:layout_marginTop="405dp"
+        android:layout_width="220dp"
+        android:layout_height="55dp"
+        android:text="20 dez"
+        android:textColor="#575757"
+        android:textStyle="italic"
+        android:textSize="18dp"
+        />
+
+    <ImageButton
+        android:id="@+id/btnGtaSan"
+        android:layout_width="390dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="@dimen/_262sdp"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:background="#00FFFFFF"/>
+
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/ic_download"
+        android:layout_marginTop="480dp"
+        android:layout_marginStart="@dimen/_30sdp"/>
+
+
+    <TextView
+        android:layout_marginLeft="@dimen/_75sdp"
+        android:layout_marginTop="489dp"
+        android:layout_width="120dp"
+        android:layout_height="25dp"
+        android:text="Downloads"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        />
+
+
+    <ImageView
+        android:id="@+id/imgDown"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="@dimen/_250sdp"
+        android:layout_marginTop="480dp"
+        android:clickable="true"
+        android:padding="6dp"
+        android:src="@drawable/ic_arrow2"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:layout_marginLeft="@dimen/_35sdp"
+        android:layout_marginTop="560dp"
+        android:layout_width="240dp"
+        android:layout_height="30dp"
+        android:text="Séries e filmes que você curtiu"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="17dp" />
+
+    <HorizontalScrollView
+        android:layout_width="385dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="589dp">
+        <RelativeLayout
+            android:layout_width="900dp"
+            android:layout_height="125dp">
+
+            <ImageButton
+                android:id="@+id/pinkblide"
+                android:onClick="pinkblider"
+                android:layout_width="108dp"
+                android:layout_height="128dp"
+                android:background="@drawable/peaky"/>
+
+            <ImageButton
+                android:id="@+id/rick"
+                android:layout_marginStart="137dp"
+                android:layout_width="90dp"
+                android:layout_height="128dp"
+                android:background="@drawable/ricardo"/>
+
+            <ImageButton
+                android:id="@+id/mi"
+                android:onClick="minoma"
+                android:layout_marginStart="250dp"
+                android:layout_width="96dp"
+                android:layout_height="128dp"
+                android:background="@drawable/minoma"/>
+
+
+
+            <ImageButton
+                android:id="@+id/de"
+                android:onClick="des"
+                android:layout_marginStart="380dp"
+                android:layout_width="90dp"
+                android:layout_height="128dp"
+                android:background="@drawable/anime11"/>
+
+
+            <ImageButton
+                android:id="@+id/bo"
+                android:onClick="boja"
+                android:layout_marginStart="500dp"
+                android:layout_width="90dp"
+                android:layout_height="128dp"
+                android:background="@drawable/boja"/>
+
+
+            <ImageButton
+                android:id="@+id/thew"
+                android:onClick="the"
+                android:layout_marginStart="620dp"
+                android:layout_width="90dp"
+                android:layout_height="128dp"
+                android:background="@drawable/comedia5"/>
+
+            <ImageButton
+                android:id="@+id/avi"
+                android:onClick="aviao"
+                android:layout_marginStart="750dp"
+                android:layout_width="90dp"
+                android:layout_height="128dp"
+                android:background="@drawable/aviao"/>
+
+
+        </RelativeLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:layout_marginLeft="@dimen/_35sdp"
+        android:layout_marginTop="760dp"
+        android:layout_width="240dp"
+        android:layout_height="30dp"
+        android:text="Minha Lista"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="17dp" />
+
+    <HorizontalScrollView
+        android:layout_width="385dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="789dp">
+        <RelativeLayout
+            android:layout_width="900dp"
+            android:layout_height="125dp">
+
+            <ImageButton
+                android:id="@+id/goblinSlayer"
+                android:onClick="goblin"
+                android:layout_width="90dp"
+                android:layout_height="128dp"
+                android:background="@drawable/anime10"/>
+
+            <ImageButton
+                android:id="@+id/sou"
+                android:onClick="South"
+                android:layout_marginStart="137dp"
+                android:layout_width="90dp"
+                android:layout_height="128dp"
+                android:background="@drawable/comedia5"/>
+
+            <ImageButton
+                android:id="@+id/the"
+                android:onClick="the"
+                android:layout_marginStart="250dp"
+                android:layout_width="90dp"
+                android:layout_height="128dp"
+                android:background="@drawable/the"/>
+
+
+        </RelativeLayout>
+    </HorizontalScrollView>
+
+
+</RelativeLayout>
+</ScrollView>

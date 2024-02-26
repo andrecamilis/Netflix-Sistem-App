@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/black"
+    tools:context=".TelaAnime">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_600sdp">
+
+        <!--Foto 1-->
+        <RelativeLayout
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_118sdp"
+            android:layout_marginTop="@dimen/_90sdp"
+            android:layout_marginStart="@dimen/_20sdp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/anime1"/>
+            <Button
+
+                android:id="@+id/botaoAnime1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00000000"/>
+
+        </RelativeLayout>
+
+
+
+        <!--Foto 2-->
+        <RelativeLayout
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_118sdp"
+            android:layout_marginTop="@dimen/_90sdp"
+            android:layout_marginStart="@dimen/_120sdp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/anime2"/>
+
+            <Button
+                android:id="@+id/botaoAnime2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00000000"/>
+        </RelativeLayout>
+
+        <!--Foto 3-->
+        <RelativeLayout
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_118sdp"
+            android:layout_marginTop="@dimen/_90sdp"
+            android:layout_marginStart="@dimen/_220sdp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/anime3"/>
+
+            <Button
+                android:id="@+id/botaoAnime3"
+                android:onClick="konoTrailer2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00000000"/>
+        </RelativeLayout>
+
+        <!--Foto 4-->
+        <RelativeLayout
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_118sdp"
+            android:layout_marginTop="@dimen/_220sdp"
+            android:layout_marginStart="@dimen/_220sdp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/anime4"/>
+            <Button
+                android:id="@+id/botaoAnime4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00000000"/>
+        </RelativeLayout>
+
+
+        <!--Foto 5-->
+        <RelativeLayout
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_118sdp"
+            android:layout_marginTop="@dimen/_220sdp"
+            android:layout_marginStart="@dimen/_120sdp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/anime5" />
+            <Button
+                android:id="@+id/botaoAnime5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00000000"/>
+        </RelativeLayout>
+
+
+        <!--Foto 6-->
+        <RelativeLayout
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_118sdp"
+            android:layout_marginTop="@dimen/_220sdp"
+            android:layout_marginStart="@dimen/_20sdp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/anime6"/>
+
+            <Button
+                android:id="@+id/botaoAnime6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00000000"/>
+        </RelativeLayout>
+
+
+        <!--Foto 7-->
+        <RelativeLayout
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_118sdp"
+            android:layout_marginTop="@dimen/_350sdp"
+            android:layout_marginStart="@dimen/_20sdp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/anime7"/>
+
+            <Button
+                android:id="@+id/botaoAnime7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00000000"/>
+        </RelativeLayout>
+
+
+        <!--Foto 8-->
+        <RelativeLayout
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_118sdp"
+            android:layout_marginTop="@dimen/_350sdp"
+            android:layout_marginStart="@dimen/_120sdp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/anime8"/>
+
+            <Button
+                android:id="@+id/botaoAnime8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00000000"/>
+        </RelativeLayout>
+
+
+        <!--Foto 9-->
+        <RelativeLayout
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_118sdp"
+            android:layout_marginTop="@dimen/_350sdp"
+            android:layout_marginStart="@dimen/_220sdp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/anime9"/>
+
+            <Button
+                android:id="@+id/botaoAnime9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00000000"/>
+        </RelativeLayout>
+
+
+
+
+
+        <!--Foto 10-->
+        <RelativeLayout
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_118sdp"
+            android:layout_marginTop="@dimen/_480sdp"
+            android:layout_marginStart="@dimen/_220sdp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/anime10"/>
+
+            <Button
+                android:id="@+id/botaoAnime10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00000000"/>
+        </RelativeLayout>
+
+
+
+
+        <!--Foto 11-->
+        <RelativeLayout
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_118sdp"
+            android:layout_marginTop="@dimen/_480sdp"
+            android:layout_marginStart="@dimen/_120sdp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/anime11"/>
+            <Button
+                android:id="@+id/botaoAnime11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00000000"/>
+        </RelativeLayout>
+
+
+
+
+        <!--Foto 12-->
+        <RelativeLayout
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_118sdp"
+            android:layout_marginTop="@dimen/_480sdp"
+            android:layout_marginStart="@dimen/_20sdp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/anime12"/>
+            <Button
+                android:id="@+id/botaoAnime12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00000000"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+</ScrollView>
