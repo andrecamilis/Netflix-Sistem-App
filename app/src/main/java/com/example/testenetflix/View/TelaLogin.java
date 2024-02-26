@@ -1,7 +1,5 @@
 package com.example.testenetflix.View;
 
-import static com.example.testenetflix.View.TelaPerfilPrincipal.users;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.database.Cursor;
@@ -40,7 +38,7 @@ public class TelaLogin extends AppCompatActivity {
         editTextNome = findViewById(R.id.editTextNome);
         editTextSenha = findViewById(R.id.editTextSenha);
         btnCadastrar = findViewById(R.id.btnCadastrar);
-        voltar = findViewById(R.id.voltar);
+        voltar = findViewById(R.id.img_voltar);
 
         voltar.setOnClickListener(new View.OnClickListener() {
             @Override
