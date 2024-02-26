@@ -12,7 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.testenetflix.R;
 
-public class TelaApresentaKono extends AppCompatActivity {
+public class TelaApresenta extends AppCompatActivity {
 
     VideoView videoView;
 
@@ -22,7 +22,7 @@ public class TelaApresentaKono extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.tela_konos);
+        setContentView(R.layout.tela);
         iv = (ImageView) findViewById(R.id.img_voltar);
         videoView = (VideoView) findViewById(R.id.video);
 
@@ -37,7 +37,7 @@ public class TelaApresentaKono extends AppCompatActivity {
        iv.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View v) {
-               Intent in = new Intent(TelaApresentaKono.this, TelaPrincipal.class);
+               Intent in = new Intent(TelaApresenta.this, TelaPrincipal.class);
                startActivity(in);
            }
        });

@@ -24,7 +24,7 @@ public class Usuario {
     public Usuario(){}
 
 
-    // Geattes e Seatters
+    // Getters e Setters
 
 
     public Integer getId() {

@@ -74,7 +74,7 @@
 
 
             <ImageButton
-                android:id="@+id/bntPlay"
+                android:id="@+id/bntAssistir"
                 android:layout_width="match_parent"
                 android:layout_height="65dp"
                 android:layout_marginStart="@dimen/_5sdp"

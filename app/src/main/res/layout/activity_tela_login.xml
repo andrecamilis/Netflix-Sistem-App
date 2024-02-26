@@ -8,7 +8,7 @@
     android:background="@color/black">
 
     <ImageView
-        android:id="@+id/voltar"
+        android:id="@+id/img_voltar"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginTop="45dp"
