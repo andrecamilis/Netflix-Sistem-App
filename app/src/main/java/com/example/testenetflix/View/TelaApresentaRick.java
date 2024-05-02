@@ -27,8 +27,8 @@ public class TelaApresentaRick extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.tela_rick);
-        iv = (ImageView) findViewById(R.id.voltar);
-        videoView = (VideoView) findViewById(R.id.videoView3);
+        iv = (ImageView) findViewById(R.id.img_voltar);
+        videoView = (VideoView) findViewById(R.id.video);
 
         videoView.setVideoURI(Uri.parse(
                 "android.resource://" +getPackageName() + "/"+ R.raw.rick_morty_video));
